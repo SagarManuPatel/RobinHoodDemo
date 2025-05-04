@@ -40,10 +40,10 @@ struct MainTabView: View {
                     Group {
                         switch selectedTab {
                         case 0: PortfolioPage()
-                        case 1: ProfileView()
-                            //                        case 2: WatchlistView()
-                            //                        case 3: WalletView()
-                            //                        case 4: MenuView()
+                        case 4: ProfileView()
+                            //case 2: WatchlistView()
+                            //case 3: WalletView()
+                            //case 4: MenuView()
                         default: Text("Unknown")
                         }
                     }
@@ -53,10 +53,10 @@ struct MainTabView: View {
                     // Tab Bar
                     HStack {
                         tabBarItem(title: "Portfolio", image: "chart.bar.fill", index: 0)
-                        tabBarItem(title: "Profile", image: "person.crop.circle", index: 1)
-                        tabBarItem(title: "Watchlist", image: "star", index: 2)
-                        tabBarItem(title: "Wallet", image: "wallet.pass", index: 3)
-                        tabBarItem(title: "Menu", image: "line.3.horizontal", index: 4)
+                        tabBarItem(title: "Watchlist", image: "star", index: 1)
+                        tabBarItem(title: "Wallet", image: "wallet.pass", index: 2)
+                        tabBarItem(title: "Menu", image: "line.3.horizontal", index: 3)
+                        tabBarItem(title: "Profile", image: "person.crop.circle", index: 4)
                     }
                     .padding(.vertical, 10)
                     .background(Color.black)

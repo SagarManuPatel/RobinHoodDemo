@@ -17,17 +17,6 @@ struct LoginView: View {
             Color.black.ignoresSafeArea()
 
             VStack(spacing: 20) {
-                HStack {
-                    Button(action: {
-                        // Optionally handle dismiss
-                    }) {
-                        Image(systemName: "xmark")
-                            .foregroundColor(.green)
-                            .padding()
-                    }
-                    Spacer()
-                }
-
                 Spacer()
 
                 Image(systemName: "leaf.fill") // Placeholder for Robinhood logo
